@@ -1,6 +1,6 @@
 // sanity/sanity.client.ts
 
-import { createClient, type ClientConfig } from "@sanity/client";
+import createClient, { ClientConfig } from '@sanity/client';
 
 const config: ClientConfig = {
   projectId: "9vbdvyqv",
